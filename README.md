@@ -28,7 +28,7 @@ Este proyecto es un **script de PowerShell** que automatiza la instalación de M
 **Instalacion Rapida**
 
       ```powershell
-      irm https://raw.githubusercontent.com/4h1g4L0w4/Office-Deployment-Tool/refs/heads/main/installer.ps1 | iex
+            irm https://raw.githubusercontent.com/4h1g4L0w4/Office-Deployment-Tool/refs/heads/main/installer.ps1 | iex
       ```
 
 **Instalacion Convencional**
