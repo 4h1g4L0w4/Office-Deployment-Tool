@@ -330,9 +330,9 @@ flowchart LR
     B --> C[configuration.xml]
     C --> D[Proceso de instalación]
     D --> E{Estado}
-    E -->|0| F[✓ Éxito]
-    E -->|3010| G[⚠ Reinicio requerido]
-    E -->|Otro| H[✗ Error]
+    E -->|0| F[Exito]
+    E -->|3010| G[Reinicio requerido]
+    E -->|Otro| H[Error]
     F --> I[Completado]
     G --> I
     H --> J[Revisar logs]
