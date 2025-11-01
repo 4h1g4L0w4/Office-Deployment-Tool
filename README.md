@@ -326,9 +326,10 @@ sequenceDiagram
 
 ```mermaid
 flowchart LR
-    A[setup.exe] --> B[/configure]
+flowchart LR
+    A[setup.exe] --> B[configure]
     B --> C[configuration.xml]
-    C --> D[Proceso de instalación]
+    C --> D[Proceso de instalacion]
     D --> E{Estado}
     E -->|0| F[Exito]
     E -->|3010| G[Reinicio requerido]
