@@ -94,7 +94,7 @@ stateDiagram-v2
     Validando --> Procesando: XML nuevo válido
     Validando --> Monitoreando: XML antiguo
     Procesando --> Copiando: Archivo válido
-    Copiando --> [*]: XML en C:\ODT
+    Copiando --> [*]: XML copiado
     Monitoreando --> Timeout: 20 minutos
     Timeout --> [*]: Error
 ```
@@ -110,9 +110,9 @@ graph TB
     end
     
     subgraph "Sistema de Archivos"
-        D[C:\ODT\]
-        E[Downloads\]
-        F[Temp\]
+        D[C:\\ODT\\]
+        E[Downloads]
+        F[Temp]
     end
     
     subgraph "Herramientas Externas"
@@ -137,10 +137,10 @@ graph TB
     A --> I
     I --> H
     
-    D --> setup.exe
-    D --> configuration.xml
+    D --> SETUPEXE[setup.exe]
+    D --> CONFIGXML[configuration.xml]
     
-    E --> XML Descargado
+    E --> XMLFILE[XML Descargado]
 ```
 
 ---
