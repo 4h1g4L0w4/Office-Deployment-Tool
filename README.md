@@ -326,7 +326,6 @@ sequenceDiagram
 
 ```mermaid
 flowchart LR
-flowchart LR
     A[setup.exe] --> B[configure]
     B --> C[configuration.xml]
     C --> D[Proceso de instalacion]
